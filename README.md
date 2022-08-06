@@ -59,7 +59,7 @@ I have used my local system for training this model.
 
 Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz   1.19 GHz;RAM:12.0 GB
 
-**Further Modification’s:**
+**FURTHER MODIFICATIONS:**
 
 We can also try another pretrained model like EfficientNet, or another ResNet model with more layers like ResNet152,we may get better accuracy.
 
