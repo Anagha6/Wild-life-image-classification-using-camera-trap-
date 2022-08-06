@@ -47,6 +47,12 @@ Here we are also defining a set of transformations, which are defined in the __i
     
     ->transforms.Normalize(...) normalizes the image tensors using the mean and standard deviation of ImageNet images.
     
+  **INSTALLATION**
+  
+install the required python packages using-
+
+pip install -r requirements.txt
+    
 **TRAINING AND EVALUATION**
 
 I have used my local system for training this model.
