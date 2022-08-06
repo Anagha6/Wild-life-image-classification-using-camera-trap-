@@ -49,6 +49,10 @@ Here we are also defining a set of transformations, which are defined in the __i
     
   **INSTALLATION**
   
+To run this code in your local system you have to download this repository using-
+  
+git clone https://github.com/Anagha6/Wildlife_Image_classification.git
+  
 install the required python packages using-
 
 pip install -r requirements.txt
@@ -62,6 +66,10 @@ Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz   1.19 GHz;RAM:12.0 GB
 **FURTHER MODIFICATIONS:**
 
 We can also try another pretrained model like EfficientNet, or another ResNet model with more layers like ResNet152,we may get better accuracy.
+
+**AUTHOR:**
+Name:Anagha Ashok
+
 
 
  
