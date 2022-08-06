@@ -1,4 +1,4 @@
-# Wildlife image classification using camera trap images
+# WILDLIFE SPECIES IMAGE CLASSIFICATION USING CAMERA TRAP IMAGES
 
 One of the best tools we have to study wildlife populations is camera traps. camera traps are one of the best tools available to study and monitor wildlife populations, and the enormous amounts of data they provide can be used to track different species for conservation efforts—once they are processed.
 
@@ -6,7 +6,7 @@ One of the best tools we have to study wildlife populations is camera traps. cam
 
 Our goal is to classify the species that appear in camera trap images collected by research partners at the Wild Chimpanzee Foundation and the Max Planck Institute for Evolutionary Anthropology.
 
-**DATA DESCRIPTION**
+## **DATA DESCRIPTION**
 
 For this challenge, you are provided with images, along with a few attributes of each image that might be helpful in setting up your training and testing sets. The images for the training and testing sets are in train_features and test_features respectively, and additional information about each image is in train_features.csv and test_features.csv.
 
@@ -20,7 +20,7 @@ Each record in the dataset corresponds to a single image captured by a camera tr
 
 There are seven types of critters captured in this set of images: birds, civets, duikers, hogs, leopards, other monkeys, and rodents. There are also images that contain no animals. Your job is to build a model that can help researchers predict whether an image contains one of these seven types of species.
 
-**TOOLKIT**
+## **TOOLKIT**
 
 I have created a resnet-50 model for image classification thus I have used a simple convultional neural network model architecture to train the models.ResNet-50 is a convolutional neural network that is 50 layers deep. ResNet, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks.
 
@@ -47,7 +47,7 @@ Here we are also defining a set of transformations, which are defined in the __i
     
     ->transforms.Normalize(...) normalizes the image tensors using the mean and standard deviation of ImageNet images.
     
-  **INSTALLATION**
+## **INSTALLATION**
   
 To run this code in your local system you have to download this repository using-
   
@@ -57,17 +57,17 @@ install the required python packages using-
 
 pip install -r requirements.txt
     
-**TRAINING AND EVALUATION**
+## **TRAINING AND EVALUATION**
 
 I have used my local system for training this model.
 
 Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz   1.19 GHz;RAM:12.0 GB
 
-**FURTHER MODIFICATIONS:**
+## **FURTHER MODIFICATIONS:**
 
 We can also try another pretrained model like EfficientNet, or another ResNet model with more layers like ResNet152,we may get better accuracy.
 
-**AUTHOR:**
+## **AUTHOR:**
 
 Name:Anagha Ashok
 
