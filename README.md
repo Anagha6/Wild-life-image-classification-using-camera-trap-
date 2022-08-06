@@ -1,4 +1,5 @@
 # Wildlife image classification
+
 One of the best tools we have to study wildlife populations is camera traps. camera traps are one of the best tools available to study and monitor wildlife populations, and the enormous amounts of data they provide can be used to track different species for conservation efforts—once they are processed.
 
 **PROBLEM STATEMENT**
@@ -18,3 +19,32 @@ Each record in the dataset corresponds to a single image captured by a camera tr
 3.site (string, feature) - the site in which the image was taken
 
 There are seven types of critters captured in this set of images: birds, civets, duikers, hogs, leopards, other monkeys, and rodents. There are also images that contain no animals. Your job is to build a model that can help researchers predict whether an image contains one of these seven types of species.
+
+**MODEL ARCHITECTURE**
+
+I have craeted a resnet-50 model for image classification thus I have used a simple convultional neural network model architecture to train the models.ResNet-50 is a convolutional neural network that is 50 layers deep. ResNet, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks.
+Model summary:
+->  __init__ will instantiate the dataset object with two dataframes: an x_train df containing image IDs and image file paths,  and a y_train df containing image IDs and labels. This will run once when we first create the dataset object
+
+->  __getitem__ will define how we access a sample from the data. This method gets called whenever we use an indexing operation like dataset[index]. In this case, whenever accessing a particular image sample ,the following will happen:
+    
+           1. look up the image filepath using the index
+    
+           2. load the image with PIL.Image
+    
+           3.apply some transformations 
+    
+           4.return a dictionary containing the image ID, the image itself as a Tensor, and a label 
+    
+->  __len__ simply returns the size of the dataset, which we do by calling len on the input dataframe.
+Here we are also defining a set of transformations, which are defined in the __init__ and called in the __getitem__ special methods.
+    
+    ->transforms.Resize((224, 224)) ResNet50 was trained on images of size 224x224 so we resize to the same dimensions here.
+    
+    ->transforms.ToTensor() converts the image to a tensor. Since we are passing in a PIL Image at this point, PyTorch can recognize it as an RGB image and will automatically convert the input values which are in the range [0, 255] to a range of [0, 1].
+    
+    ->transforms.Normalize(...) normalizes the image tensors using the mean and standard deviation of ImageNet images.
+    
+ **Installation**
+ To run this code in your local system you have to download this repository using-
+ 
