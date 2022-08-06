@@ -2,7 +2,7 @@
 
 One of the best tools we have to study wildlife populations is camera traps. camera traps are one of the best tools available to study and monitor wildlife populations, and the enormous amounts of data they provide can be used to track different species for conservation efforts—once they are processed.
 
-**PROBLEM STATEMENT**
+# **PROBLEM STATEMENT**
 
 Our goal is to classify the species that appear in camera trap images collected by research partners at the Wild Chimpanzee Foundation and the Max Planck Institute for Evolutionary Anthropology.
 
@@ -68,6 +68,7 @@ Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz   1.19 GHz;RAM:12.0 GB
 We can also try another pretrained model like EfficientNet, or another ResNet model with more layers like ResNet152,we may get better accuracy.
 
 **AUTHOR:**
+
 Name:Anagha Ashok
 
 
