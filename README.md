@@ -67,6 +67,10 @@ Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz   1.19 GHz;RAM:12.0 GB
 
 We can also try another pretrained model like EfficientNet, or another ResNet model with more layers like ResNet152,we may get better accuracy.
 
+## **COMPETITION PARTICIPATION**
+![Screenshot (9)](https://user-images.githubusercontent.com/98939596/183240835-ddaf2cf0-2244-4784-9d0b-ab590f84f906.png)
+
+
 ## **AUTHOR:**
 
 Name:Anagha Ashok
