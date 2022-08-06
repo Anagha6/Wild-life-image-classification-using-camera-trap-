@@ -20,7 +20,7 @@ Each record in the dataset corresponds to a single image captured by a camera tr
 
 There are seven types of critters captured in this set of images: birds, civets, duikers, hogs, leopards, other monkeys, and rodents. There are also images that contain no animals. Your job is to build a model that can help researchers predict whether an image contains one of these seven types of species.
 
-**MODEL ARCHITECTURE**
+**TOOLKIT**
 
 I have created a resnet-50 model for image classification thus I have used a simple convultional neural network model architecture to train the models.ResNet-50 is a convolutional neural network that is 50 layers deep. ResNet, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks.
 
