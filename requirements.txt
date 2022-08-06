@@ -1,0 +1,15 @@
+#RESNET-50 REQUIREMENTS
+
+matplotlib
+numpy
+seaborn
+pandas
+pillow
+tqdm
+sklearn
+torch
+torchvision
+
+
+
+

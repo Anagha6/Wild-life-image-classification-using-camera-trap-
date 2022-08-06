@@ -1,0 +1,40 @@
+1.TITLE:IMAGE CLASSIFICATION USING CAMERA TRAP IMAGES
+
+2.SOURCES:
+     1.Creator:a) Wild Chimpanzee Foundation
+               b) Max Planck Institute for Evolutionary Anthropology.
+
+3.PAST USAGE:
+     1.Machine learning 1 project:Submitted by Anagha Ashok
+       Goal is to classify the species that appear in camera trap images.
+
+4.RELEVANT INFORMATION:
+     -- One of the best tools we have to study wildlife populations is camera traps. 
+        camera traps are one of the best tools available to study and monitor wildlife populations, 
+        and the enormous amounts of data they provide can be used to track different species for conservation efforts—
+        once they are processed.In the dataset there are seven types of critters captured in this set of images: 
+        birds, civets, duikers, hogs, leopards, other monkeys, and rodents. There are also images that contain no animals.
+
+5.NUMBER OF ATTRIBUTES:8
+
+6.ATTRIBUTE INFORMATION:
+      1.id (string, unique identifier) - a unique identifier for each image
+
+7.FILE STRUCTURE:
+     1.submission_format.csv
+
+     2.test_features
+
+        a.ZJ000000.jpg
+
+        b.ZJ000001.jpg
+     3.test_features.csv
+
+     4.train_features
+
+        a.ZJ016488.jpg
+
+        b.ZJ016489.jpg
+     5.train_features.csv
+
+     6.train_labels.csv
