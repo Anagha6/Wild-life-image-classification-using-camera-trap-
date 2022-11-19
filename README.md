@@ -77,5 +77,4 @@ We can also try another pretrained model like EfficientNet, or another ResNet mo
 Name:Anagha Ashok
 
 
-
  
